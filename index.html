@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Золотой дельфин</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bs/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="pushy/css/pushy.css">
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="pushy/js/pushy.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		if ($(window).width() < 1359) {
+			$(".slider").slick({
+				arrows: true,
+				dots: false,
+				slidesToScroll: 1,
+				slidesToShow: 1
+			})
+		}
+	})
+
+	$(document).ready(function(){
+		$('a[href^="#"]').bind("click", function(e){
+				var anchor = $(this);
+				$('html, body').stop().animate({
+					scrollTop: $(anchor.attr("href")).offset().top-60
+				}, 1000);
+					e.preventDefault();
+				});
+		 return false;﻿
+	});
+	</script>
+
+</head>
+<body>
+
+	<header class="container-fluid header">
+		
+		<div class="row justify-content-center align-items-center hr-top">
+			<div class="col-lg-2 col-sm-5 col-10">
+				<div class="row align-items-center justify-content-center hr-top__container">
+					<img src="img/logo.png" class="hr-top__logo" alt="logo">
+					<div class="hr-top__name">
+						<p class="hr-top__name__first">Золотой дельфин</p>
+						<p class="hr-top__name__second">Бухгалтерия</p>
+					</div>
+				</div>
+			</div>
+			<nav class="col-lg-5 col-sm-10 navbar">
+				<ul class="row no-gutters justify-content-between navbar__menu">
+					<li class="col-auto navbar__items"><a href="#s-2">Почему мы?</a></li>
+					<li class="col-auto navbar__items"><a href="#s-3">Услуги</a></li>
+					<li class="col-auto navbar__items"><a href="#s-5">Цены</a></li>
+					<li class="col-auto navbar__items"><a href="#s-6">Порядок работы</a></li>
+					<li class="col-auto navbar__items"><a href="#s-7">Отзывы</a></li>
+					<li class="col-auto navbar__items"><a href="#s-10">Контакты</a></li>
+				</ul>
+			</nav>
+			<nav class="pushy pushy-left">
+			    <div class="pushy-content">
+			        <ul>
+			            <li class="pushy-link"><a href="#s-2">Почему мы?</a></li>
+			            <li class="pushy-link"><a href="#s-3">Услуги</a></li>
+			            <li class="pushy-link"><a href="#s-5">Цены</a></li>
+			            <li class="pushy-link"><a href="#s-6">Порядок работы</a></li>
+			            <li class="pushy-link"><a href="#s-7">Отзывы</a></li>
+			            <li class="pushy-link"><a href="#s-10">Контакты</a></li>
+			        </ul>
+			    </div>
+			</nav>
+			<div class="site-overlay"></div>
+			
+			<div class="col-lg-2 col-sm-5 col-10 hr-phone">
+				<p class="hr-phone__first">+7 (812) 317-17-64</p>
+				<a class="hr-phone__second">Заказать обратный звонок</a>
+				<div id="container">
+			    <!-- Menu Button -->
+			    <button class="menu-btn"></button>
+			</div>
+			</div>
+		</div>
+
+		<div class="row face justify-content-center">
+			<h1 class="col-12 headline">Бухгалтерское сопровождение <br/>вашего бизнеса</h1>
+			<p class="col-12 postline">Возьмем столько бухгалтерии, сколько вы готовы отдать</p>
+			<div class="col-11 col-lg-11 col-xl-9 col-md-11 col-sm-11 face__container">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-7 col-lg-6 face__container__list">
+						<div class="row">
+							<div class="col-11">
+								<p class="face__list__item face__list__item__left">Вы открываете свой бизнес</p>
+								<p class="face__list__item face__list__item__right">Зарегистрируем, подберём систему<br/> налогообложения, организуем учет</p>
+								<p class="face__list__item face__list__item__left">Вы самостоятельно вели бухгалтерию, <br/>но растущий бизнес не оставляет времени</p>
+								<p class="face__list__item face__list__item__right"> Мы полностью возьмём на себя<br/>все заботы по бухгалтерии</p>
+								<p class="face__list__item face__list__item__left">Ваш бухгалтер не справляется</p>
+								<p class="face__list__item face__list__item__right">Наведем порядок, частично или <br/>полностью возьмем на себя учет</p>
+								<p class="face__list__item face__list__item__left">Бухгалтерия на аутсорсе, но нет доверия</p>
+								<p class="face__list__item face__list__item__right">С нами Вы поменяете свое отношение <br/>на “положительное” к аутсорсингу</p>
+								<p class="face__list__item face__list__item__left">Был штатный бухгалтер, но необходимо <br/>сокращение расходов</p>
+								<p class="face__list__item face__list__item__right">Мы предлагаем услуги высокого <br/>качества по оптимальной цене</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-5 col-lg-6">
+						<div class="row justify-content-center align-items-center form__container">
+							<form class="col-12 col-xl-8 col-lg-9 col-md-10 col-sm-12 face__form">
+								<p class="face__form__headline">Оставьте заявку на обратный звонок и мы свяжемся с вами в ближайшее время</p>
+								<input class="face__form__input" type="text" name="name" placeholder="Ваше имя">
+								<input class="face__form__input" type="text" name="phone" placeholder="Ваш телефон">
+								<input class="face__form__input" type="text" name="mail" placeholder="Ваш e-mail">
+								<textarea class="face__form__textarea" placeholder="Ваше сообщение"></textarea>
+								<p class="face__form__alert">Нажимая кнопку, вы даете согласие на обработку персональных данных</p>
+								<input class="face__form__submit" type="submit" name="submit">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="col-12 endline">Первый месяц сопровождения бесплатно!</p>
+		</div>
+
+	</header>
+
+	<main>
+		<section class="container-fluid s-1" id="s-1">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-1__headline">Наши руководители</h2>
+				<div class="col-10 col-xl-9 s-1__container">
+					<div class="row">
+						<div class="col-12 s-1__chief__top">
+							<div class="row align-items-start">
+								<div class="col-12 col-lg-4 col-md-5 col-sm-6 s-1__chief__top__photo"></div>
+								<div class="col-12 col-lg-8 col-md-7 col-sm-6 s-1__chief__top__text">
+									<h3>Баранов Евгений, генеральный директор</h3>
+									<p>Наша команда специалистов любит и знает свое дело. Все Ваши заботы по ведению бухгалтерского и налогового учета мы максимально берем на себя. Вам не придется держать на контроле и помнить сроки уплаты налогов, сроки сдачи отчетов. Мы все подготовим и сдадим, не отвлекая Вас от любимого дела. Наши бухгалтера возьмут на себя все общение со специалистами налоговой, ФСС, ПФРФ. Самая главная хитрость нашей команды в общении с инспекторами налоговой и других фондов — наше знание налогового, гражданского законодательств и бухгалтерского учета, что позволяет нам общаться на одном языке.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 s-1__chief__bot">
+							<div class="row align-items-start">
+								<div class="col-12 col-lg-4 col-md-5 col-sm-6 s-1__chief__bot__photo"></div>
+								<div class="col-12 col-lg-8 col-md-7 col-sm-6 s-1__chief__bot__text">
+									<h3>Смирнова Юлия, главный бухгалтер</h3>
+									<p>Мы максимально сэкономим Ваши деньги на уплате налогов путем законной оптимизации. Наши сотрудники всегда на связи любым удобным для Вас способом: живое общение, электронная почта, Skype, Watsapp. Обращайтесь к нам. Будем рады сотрудничеству! Мы максимально сэкономим Ваши деньги на уплате налогов путем законной оптимизации. Наши сотрудники всегда на связи любым удобным для Вас способом: живое общение, электронная почта, Skype, Watsapp. Обращайтесь к нам. Будем рады сотрудничеству!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-fluid s-2" id="s-2">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-2__headline">Наши преимущества</h2>
+				<div class="col-10 col-xl-9 s-2__container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-xl-4 col-md-6">
+							<div class="row s-2__container__point">
+								<div class="s-2__container__point__items s-2__container__point__items__active" ><p id="advantage-1">Стабильность и надежность</p></div>
+								<div class="s-2__container__point__items"><p  id="advantage-2">Опыт и профессионализм</p></div>
+								<div class="s-2__container__point__items" ><p id="advantage-3">Клиентоориентированность</p></div>
+								<div class="s-2__container__point__items" ><p id="advantage-4">Развитие</p></div>
+							</div>
+						</div>
+						<div class="col-12 col-xl-4 col-lg-5 col-md-6 s-2__target">
+							<div class="row s-2__container__img"></div>
+						</div>
+						<div class="col-12 col-xl-4 " style="display: flex; align-items: center;">
+							<div class="row no-gutters s-2__container__desc s-2__container__desc__active" id="desc-1">
+								<h5 class="s-2__container__desc__headline">9 лет на рынке</h5>
+								<p class="s-2__container__desc__par">Компания ООО "Золотой Дельфин" существует с 2009 года</p>
+								<h5 class="s-2__container__desc__headline">Нет претензий и исков</h5>
+								<p class="s-2__container__desc__par">Все условия сотрудничества и наши обязательства фиксируются в договор</p>
+								<div class="col-12">
+									<div class="row">
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Учредительные документы</a>
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Выписки из ЕГЮРЛ</a>
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Образец договора</a>
+									</div>
+								</div>
+							</div>
+							<div class="row no-gutters s-2__container__desc" id="desc-2">
+								<h5 class="s-2__container__desc__headline">Высшее профильное образование</h5>
+								<p class="s-2__container__desc__par">Ведущие бухгалтера имеют высшее экономическое образование</p>
+								<h5 class="s-2__container__desc__headline">Постоянное повышение квалификации</h5>
+								<p class="s-2__container__desc__par">Все ведущие бухгалтера являются сертифицированными членами UCPA ежегодно повышают квалификацию и подтверждают статус профессионального бухгалтера.</p>
+								<h5 class="s-2__container__desc__headline">Разные сферы бизнеса</h5>
+								<p class="s-2__container__desc__par">Мы знаем и понимаем нюансы разных сфер бизнеса </p>
+								<div class="col-12">
+									<div class="row">
+										<a href="#" class="col-12 col-md-12 s-2__container__desc__link">Сертификат UCPA</a>
+									</div>
+								</div>
+							</div>
+							<div class="row no-gutters s-2__container__desc" id="desc-3">
+								<h5 class="s-2__container__desc__headline">Оперативность</h5>
+								<p class="s-2__container__desc__par">Сроки реагирования на запросы от клиентов прописаны в договоре. Срочные вопросы берутся на исполнение в течении 30 минут. </p>
+								<h5 class="s-2__container__desc__headline">Слышим клиента</h5>
+								<p class="s-2__container__desc__par">Мы устанавливаем с клиентом личный контакт и всегда стараемся найти взаимовыгодное решение проблемы.</p>
+								<h5 class="s-2__container__desc__headline">Долгосрочность отношений</h5>
+								<p class="s-2__container__desc__par">Нам важнее долгосрочные отношения с клиентом, чем сиюминутная выгода.</p>
+								<h5 class="s-2__container__desc__headline">Бесплатный месяц обслуживания</h5>
+								<p class="s-2__container__desc__par">Чтобы вы могли оценить уровень нашей работы, мы предлагаем бесплатный </p>
+								<!-- <div class="col-12">
+									<div class="row">
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Учредительные документы</a>
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Выписки из ЕГЮРЛ</a>
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Образец договора</a>
+									</div>
+								</div> -->
+							</div>
+							<div class="row no-gutters s-2__container__desc" id="desc-4">
+								<h5 class="s-2__container__desc__headline">Личный кабинет клиента</h5>
+								<p class="s-2__container__desc__par">Идёт разработка личного кабинета клиента, который позволит поднять на новый уровень наш процесс взаимодействия</p>
+								<h5 class="s-2__container__desc__headline">Комплексное сопровождение</h5>
+								<p class="s-2__container__desc__par">Мы планируем расширять спектр предоставляемых услуг, чтобы более полно покрывать потребности бизнеса в сопровождении непрофильных для него активностей (юридическое сопровождение, IT сопровождение) </p>
+								<!-- <div class="col-12">
+									<div class="row">
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Учредительные документы</a>
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Выписки из ЕГЮРЛ</a>
+										<a href="#" class="col-12 col-md-4 s-2__container__desc__link">Образец договора</a>
+									</div>
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-fluid s-3" id="s-3">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-3__headline">Услуги</h2>
+				<div class="col-10 col-xl-9">
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-6 col-lg-4 ">
+							<div class="row justify-content-center">
+								<div class="col-11 col-sm-8 col-md-11 s-3__item">
+									<h3 class="s-3__item__headline">Бухгалтерские<br/> услуги</h3>
+									<ul class="s-3__item__list">
+										<li class="s-3__list__point">
+											Полное ведение бухгалтерского и налогового учета
+										</li>
+										<li class="s-3__list__point">Ведение учета на участке (з/п, банк, касса, ТМЦ и др.)</li>
+										<li class="s-3__list__point">Функция «Главный бухгалтер» контроль ведения Вашего учета и подготовка отчетности</li>
+										<li class="s-3__list__point">Формирование и сдача отчетности</li>
+										<li class="s-3__list__point">Нулевая отчетность</li>
+										<li class="s-3__list__point">Законная оптимизация налогообложения</li>
+										<li class="s-3__list__point">Консультирование по любым вопросам ведения учета</li>
+										<li class="s-3__list__point">Формирование форм КС строительно-монтажных работ</li>
+									</ul>
+									<input class="s-3__item__btn" type="button" name="button" value="Заказать">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 s-3__center">
+							<div class="row justify-content-center">
+								<div class="col-11 col-sm-8 col-md-11 s-3__item">
+									<h3 class="s-3__item__headline">Кадровое <br/>делопроизводство</h3>
+									<ul class="s-3__item__list">
+										<li class="s-3__list__point">
+											Оформление документов о приеме на работу
+										</li>
+										<li class="s-3__list__point">Оформление документов об увольнение</li>
+										<li class="s-3__list__point">Оформление локальных (внутренних) нормативных документов (правила внутреннего распорядка; положение о защите персональных данных работника и др.) </li>
+										<li class="s-3__list__point">Оформление информационно-расчетных документов</li>
+										<li class="s-3__list__point">Ведение журналов учета и контроля</li>
+										<li class="s-3__list__point">Восстановление кадровой документации</li>
+										<li class="s-3__list__point">Миграционный учет</li>
+									</ul>
+									<input class="s-3__item__btn" type="button" name="button" value="Заказать">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 s-3__right">
+							<div class="row justify-content-center">
+								<div class="col-11 col-sm-8 col-md-11 s-3__item">
+									<h3 class="s-3__item__headline">Юридические <br/>услуги</h3>
+									<ul class="s-3__item__list">
+										<li class="s-3__list__point">
+											Регистрация ООО и ИП
+										</li>
+										<li class="s-3__list__point">Ликвидация ООО и ИП</li>
+										<li class="s-3__list__point">Юридическое сопровождение сделки</li>
+										<li class="s-3__list__point">Консультирование</li>
+										<li class="s-3__list__point">Составление и аудит договоров</li>
+										<li class="s-3__list__point">Подготовка претензий контрагентам</li>
+										<li class="s-3__list__point">Подготовка на претензии контрагентов</li>
+									</ul>
+									<input class="s-3__item__btn" type="button" name="button" value="Заказать">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-fluid s-4" id="s-4">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-4__headline">Бухгалтерское сопровождение ИП</h2>
+
+				<div class="col-12 col-sm-10 col-xl-9">
+					<div class="row">
+						<p class="col-12 s-4__header">Система налогообложения:</p>
+						<div class="col-12 s-4__table">
+							<div class="row justify-content-between s-4__target">
+								<div class="col-auto s-4__label oe__labels s-4__label__active" id="oe-label-1">ОСНО (с НДС)</div>
+								<div class="col-auto s-4__label oe__labels" id="oe-label-2">УСН "ДОХОДЫ"</div>
+								<div class="col-auto s-4__label oe__labels" id="oe-label-3">УСН "ДОХОДЫ-РАСХОДЫ"</div>
+								<div class="col-auto s-4__label oe__labels" id="oe-label-4">ЕНВД  </div>
+								<div class="col-auto s-4__label oe__labels" id="oe-label-5">Патент</div>
+								<div class="col-auto s-4__label oe__labels" id="oe-label-6">Совмещенная</div>
+							</div>
+							<div class="row">
+								<div class="col-12 s-4__container oe__container oe__container__active" id="oe-content-1">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Электронная сдача Декларации по НДС;</li>
+														<li class="s-4__list__item">2. Налог на доход у ИП - НДФЛ по ставке 13%;</li>
+														<li class="s-4__list__item">3. Обязанность ведения Книги учета доходов и расходов;</li>
+														<li class="s-4__list__item">4. Сдача Декларации о предполагаемом доходе</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Предоставление сервиса сдачи электронной отчетности;</li>
+														<li class="s-4__list__item">2. Декларация по НДС;</li>
+														<li class="s-4__list__item">3. Книга покупок, книга продаж;</li>
+														<li class="s-4__list__item">4. Декларация 3-НДФЛ;</li>
+														<li class="s-4__list__item">5. Декларация 4-НДФЛ;</li>
+														<li class="s-4__list__item">6. Книга учета доходов и расходов;</li>
+														<li class="s-4__list__item">7. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">8. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container oe__container" id="oe-content-2">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. 30 дней на подачу уведомления о применении УСН;</li>
+														<li class="s-4__list__item">2. Обязанность ведения Книги учета доходов и расходов;</li>
+														<li class="s-4__list__item">3. Ежеквартальные авансовые платежи по УСН;</li>
+														<li class="s-4__list__item">4. Возможность уменьшать налог;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Контроль критериев применения УСН;</li>
+														<li class="s-4__list__item">2. Расчет авансовых платежей УСН;</li>
+														<li class="s-4__list__item">3. Книга учета доходов и расходов;</li>
+														<li class="s-4__list__item">4. Декларация по УСН;</li>
+														<li class="s-4__list__item">5. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">6. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container oe__container" id="oe-content-3">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. 30 дней на подачу уведомления о применении УСН;</li>
+														<li class="s-4__list__item">2. Обязанность ведения Книги учета доходов и расходов;</li>
+														<li class="s-4__list__item">3. Ежеквартальные авансовые платежи по УСН;</li>
+														<li class="s-4__list__item">4. Перечень затрат строго регламентирован НК РФ;</li>
+														<li class="s-4__list__item">5. Минимальный налог 1%;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Контроль критериев применения УСН;</li>
+														<li class="s-4__list__item">2. Расчет авансовых платежей УСН;</li>
+														<li class="s-4__list__item">3. Книга учета доходов и расходов;</li>
+														<li class="s-4__list__item">4. Декларация по УСН;</li>
+														<li class="s-4__list__item">5. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">6. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container oe__container" id="oe-content-4">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Регистрация в течении 5 дней в МИФНС по МЕСТУ ОСУЩЕСТВЛЕНИЯ ДЕЯТЕЛЬНОСТИ;</li>
+														<li class="s-4__list__item">2. При ЕНВД нет "0" налога;</li>
+														<li class="s-4__list__item">3. Возможность уменьшать налог;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Подача заявления о применении ЕНВД;</li>
+														<li class="s-4__list__item">2. Расчет ЕНВД;</li>
+														<li class="s-4__list__item">3. Декларация по ЕНВД;</li>
+														<li class="s-4__list__item">4. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">5. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container oe__container" id="oe-content-5">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Патетная система может применяться исключительно ИП;</li>
+														<li class="s-4__list__item">2. Сумма налога фиксированная;</li>
+														<li class="s-4__list__item">3. Обязанность ведения книги учета доходов ИП;</li>
+														<li class="s-4__list__item">4. Патент выдается от 1 до 12 месяцев;</li>
+														<li class="s-4__list__item">5. Возможность уменьшения единого налога;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Расчет стоимости патента;</li>
+														<li class="s-4__list__item">2. Подача заявления на получение патента;</li>
+														<li class="s-4__list__item">3. Контроль критериев применения ПСН;</li>
+														<li class="s-4__list__item">4. Книга учета доходов ИП, применяющего ПСН;</li>
+														<li class="s-4__list__item">5. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container oe__container" id="oe-content-6">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Раздельный учета доходов;</li>
+														<li class="s-4__list__item">2. Раздельный учет расходов;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Раздельный учет доходов и расходов;</li>
+														<li class="s-4__list__item">2. Подготовка и сдача отчетности;</li>
+														<li class="s-4__list__item">3. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">4. Книга учета доходов и расходов;</li>
+														<li class="s-4__list__item">5. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="col-12 s-4__header">Наличие сотрудников:</p>
+						<div class="col-12 s-4__table">
+							<div class="row justify-content-between">
+								<div class="col-6 s-4__label s-4__label__active oe__labels__min" id="oe-label-7">Без сотрудников</div>
+								<div class="col-6 s-4__label oe__labels__min" id="oe-label-8">С сотрудниками</div>
+							</div>
+							<div class="row">
+								<div class="col-12 s-4__container s-4__container__min oe__container__min oe__container__min__active" id="oe-content-7">
+									<div class="row">
+										<div class="col-12 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Фиксированные страховые взносы;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container s-4__container__min oe__container__min" id="oe-content-8">
+									<div class="row">
+										<div class="col-12 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Сообщение о найме первого сотрудника в ФСС;</li>
+														<li class="s-4__list__item">2. Фиксированные страховые взносы;</li>
+														<li class="s-4__list__item">3. С начислений сотрудникам платятся страховые взносы и НДФЛ;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2 class="col-12 s-4__headline s-4__headline__second">Бухгалтерское сопровождение ООО</h2>
+
+				<div class="col-12 col-sm-10 col-xl-9">
+					<div class="row">
+						<p class="col-12 s-4__header">Система налогообложения:</p>
+						<div class="col-12 s-4__table">
+							<div class="row justify-content-between s-4__target">
+								<div class="col-auto s-4__label ie__labels s-4__label__active" id="ie-label-1">ОСНО (с НДС)</div>
+								<div class="col-auto s-4__label ie__labels" id="ie-label-2">УСН "ДОХОДЫ"</div>
+								<div class="col-auto s-4__label ie__labels" id="ie-label-3">УСН "ДОХОДЫ-РАСХОДЫ"</div>
+								<div class="col-auto s-4__label ie__labels" id="ie-label-4">ЕНВД  </div>
+<!-- 								<div class="col-auto s-4__label ie__labels" id="ie-label-5">Патент</div> -->
+								<div class="col-auto s-4__label ie__labels" id="ie-label-6">Совмещенная</div>
+							</div>
+							<div class="row">
+								<div class="col-12 s-4__container ie__container ie__container__active" id="ie-content-1">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Электронная сдача Декларации по НДС;</li>
+														<li class="s-4__list__item">2. Нет деятельности - сдается вся отчетность;</li>
+														<li class="s-4__list__item">
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Предоставление сервиса сдачи электронной отчетности;</li>
+														<li class="s-4__list__item">2. Декларация по НДС;</li>
+														<li class="s-4__list__item">3. Книга покупок, книга продаж;</li>
+														<li class="s-4__list__item">4. Декларация по налогу на прибыль;</li>
+														<li class="s-4__list__item">5. Бухгалтерская отчетность (баланс, отчет о результатах);</li>
+														<li class="s-4__list__item">6. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container ie__container" id="ie-content-2">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. 30 дней на подачу уведомления о применении УСН;</li>
+														<li class="s-4__list__item">2. Ежеквартальные авнсовые платежи по УСН;</li>
+														<li class="s-4__list__item">3. ООО на УСН сдает баланс и отчет о финансовых результатах;</li>
+														<li class="s-4__list__item">4. Возможность уменьшать налог;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Контроль критериев применения УСН;</li>
+														<li class="s-4__list__item">2. Расчет авансовых платежей УСН;</li>
+														<li class="s-4__list__item">3. Декларация по УСН;</li>
+														<li class="s-4__list__item">4. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">5. Бухгалтерская отчетность (баланс, отчет о финансовых результатах);</li>
+														<li class="s-4__list__item">6. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container ie__container" id="ie-content-3">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. 30 дней на подачу уведомления о применении УСН;</li>
+														<li class="s-4__list__item">2. Ежеквартальные авансовые платежи по УСН;</li>
+														<li class="s-4__list__item">3. Перечень затрат строго регламентирован НК РФ;</li>
+														<li class="s-4__list__item">4. ООО на УСН сдает баланс и отчет о финансовых результатах;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Контроль критериев применения УСН;</li>
+														<li class="s-4__list__item">2. Расчет авансовых платежей УСН;</li>
+														<li class="s-4__list__item">3. Декларация по УСН;</li>
+														<li class="s-4__list__item">4. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">5. Бухгалтерская отчетность (баланс, отчет о финансовых результатах);</li>
+														<li class="s-4__list__item">6. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container ie__container" id="ie-content-4">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Регистрация в течении 5 дней в МИФНС по МЕСТУ ОСУЩЕСТВЛЕНИЯ ДЕЯТЕЛЬНОСТИ;</li>
+														<li class="s-4__list__item">2. При ЕНВД нет "0" налога;</li>
+														<li class="s-4__list__item">3. Возможность уменьшать налог;</li>
+														<li class="s-4__list__item">4. ООО на ЕНВД сдает баланс и отчет о финансовых результатах;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Подача заявления о применении ЕНВД;</li>
+														<li class="s-4__list__item">2. Расчет ЕНВД;</li>
+														<li class="s-4__list__item">3. Декларация по ЕНВД;</li>
+														<li class="s-4__list__item">4. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">5. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container ie__container" id="ie-content-5">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Электронная сдача Декларации по НДС;</li>
+														<li class="s-4__list__item">2. Нет деятельности - сдается вся отчетность;</li>
+														<li class="s-4__list__item">
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Предоставление сервиса сдачи электронной отчетности;</li>
+														<li class="s-4__list__item">2. Декларация по НДС;</li>
+														<li class="s-4__list__item">3. Книга покупок, книга продаж;</li>
+														<li class="s-4__list__item">4. Декларация по налогу на прибыль;</li>
+														<li class="s-4__list__item">5. Бухгалтерская отчетность (баланс, отчет о результатах);</li>
+														<li class="s-4__list__item">6. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container ie__container" id="ie-content-6">
+									<div class="row">
+										<div class="col-6 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Раздельный учета доходов;</li>
+														<li class="s-4__list__item">2. Раздельный учет расходов;</li>
+														<li class="s-4__list__item">
+													</ol>
+												</div>
+											</div>
+										</div>
+										<div class="col-6 ">
+											<div class="row">
+												<div class="col-11 s-4__container__right">
+													<p class="s-4__container__par">Наша работа: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Раздельный учет доходов и расходов;</li>
+														<li class="s-4__list__item">2. Подготовка и сдача отчетности;</li>
+														<li class="s-4__list__item">3. Платежки по уплате налогов и взносов;</li>
+														<li class="s-4__list__item">4. Бухгалтерская отчетность (баланс, отчет о финансовых результатах)</li>
+														<li class="s-4__list__item">5. Отчетность "по сотрудникам";</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="col-12 s-4__header">Наличие сотрудников:</p>
+						<div class="col-12 s-4__table">
+							<div class="row justify-content-between">
+								<div class="col-6 s-4__label ie__labels__min s-4__label__active" id="ie-label-7">Без сотрудников</div>
+								<div class="col-6 s-4__label ie__labels__min" id="ie-label-8">С сотрудниками</div>
+							</div>
+							<div class="row">
+								<div class="col-12 s-4__container s-4__container__min ie__container__min ie__container__min__active" id="ie-content-7">
+									<div class="row">
+										<div class="col-12 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. Предоставление отчетности "по сотрудникам" в ФСС, ПФРФ, МИФНС при отсутствии сотрудников;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 s-4__container s-4__container__min ie__container__min" id="ie-content-8">
+									<div class="row">
+										<div class="col-12 ">
+											<div class="row justify-content-center">
+												<div class="col-11 s-4__container__left">
+													<p class="s-4__container__par">Особенности: </p>
+													<hr/>
+													<ol class="s-4__container__list">
+														<li class="s-4__list__item">1. С начислений сотрудникам платятся страховые взносы и НДФЛ. Отчетность предоставляется в ФСС, ПФРФ, МИФНС;</li>
+													</ol>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-fluid s-5" id="s-5">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-5__headline">Цены</h2>
+				<div class="col-12 s-5__separate">
+					<div class="row justify-content-center align-items-center s-5__separate__line">
+						<p class="col-9 s-5__separate__par">ИП без сотрудников</p>
+						<a href="ie_without.jpg" download="download" class="hidden__link">ИП без сотрудников</a>
+					</div>
+				</div>
+				<div class="col-10 col-xl-9 s-5__gutters">
+					<div class="row s-5__table no-gutters">
+						<div class="col-2 s-5__table__column s-5__bold">
+							<div class="s-5__table__td">Режим налогообложения</div>
+							<div class="s-5__table__td"></div>
+							<div class="s-5__table__td">ЕНВД</div>
+							<div class="s-5__table__td">УСН "Доходы"</div>
+							<div class="s-5__table__td">УСН "Доходы - Расходы"</div>
+							<div class="s-5__table__td">ОСНО</div>
+						</div>
+						<div class="col-2 s-5__table__column">
+							<div class="s-5__table__td">Нулевая отчетность</div>
+							<div class="s-5__table__td">оформление квитанций на фиксированные страховые взносы</div>
+							<div class="s-5__table__td">при ЕНВД нет нулевой отчетности	</div>
+							<div class="s-5__table__td">1500руб/квартал</div>
+							<div class="s-5__table__td">1500руб/квартал</div>
+							<div class="s-5__table__td">3000руб/квартал</div>
+						</div>
+						<div class="col-4 s-5__table__column">
+							<div class="s-5__table__td">Сдача квартальной (годовой) отчетности (ненулевой, если была деятельность)</div>
+							<div class="s-5__table__td">оформление платежек по уплате взносов и налогов</div>
+							<div class="s-5__table__td">2000руб/квартал</div>
+							<div class="s-5__table__td">от 2000руб/квартал</div>
+							<div class="s-5__table__td">от 3500руб/квартал</div>
+							<div class="s-5__table__td">от 5500руб/квартал</div>
+						</div>
+						<div class="col-4 s-5__table__column s-5__end">
+							<div class="s-5__table__td">Ежемесячное бухгалтерское обслуживание</div>
+							<div class="s-5__table__td">ведение первичной документации, подготовка и сдача отчетности, консультирование, оформление платежек на фиксированные взносы и налоги</div>
+							<div class="s-5__table__td">1000 руб/месяц (до 10 операций)<br/>1000-4000 руб/месяц (10-50 операций)<br/>от 4000 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">1000 руб/месяц (до 10 операций)<br/>1000-4000 руб/месяц (10-50 операций)<br/>от 4000 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">2500 руб/месяц (до 10 операций)<br/>2500-5000 руб/месяц (10-50 операций)<br/>от 5000 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">5000 руб/месяц (до 10 операций)<br/>5000-12000 руб/месяц (10-50 операций)<br/> от 12000 руб/месяц (свыше 50 операций)</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 s-5__separate">
+					<div class="row justify-content-center align-items-center s-5__separate__line">
+						<p class="col-9 s-5__separate__par">ИП с 1 сотрудником</p>
+						<a href="ie_with.jpg" download="download" class="hidden__link">ИП с 1 сотрудником</a>
+					</div>
+				</div>
+				<p class="col-10 col-xl-9 s-5__pretable">За каждого дополнительного сотрудника +200 руб к стоимости, иностранного сотрудника +400 руб к стоимости</p>
+				<div class="col-10 col-xl-9 s-5__gutters">
+					<div class="row s-5__table no-gutters">
+						<div class="col-2 s-5__table__column s-5__bold">
+							<div class="s-5__table__td">Режим налогообложения</div>
+							<div class="s-5__table__td"></div>
+							<div class="s-5__table__td">ЕНВД</div>
+							<div class="s-5__table__td">УСН "Доходы"</div>
+							<div class="s-5__table__td">УСН "Доходы - Расходы"</div>
+							<div class="s-5__table__td">ОСНО</div>
+						</div>
+						<div class="col-2 s-5__table__column">
+							<div class="s-5__table__td">Нулевая отчетность</div>
+							<div class="s-5__table__td">оформление квитанций на фиксированные страховые взносы</div>
+							<div class="s-5__table__td">3000руб/квартал</div>
+							<div class="s-5__table__td">2000руб/квартал</div>
+							<div class="s-5__table__td">2000руб/квартал</div>
+							<div class="s-5__table__td">4000руб/квартал</div>
+						</div>
+						<div class="col-4 s-5__table__column">
+							<div class="s-5__table__td">Сдача квартальной (годовой) отчетности (ненулевой, если была деятельность)</div>
+							<div class="s-5__table__td">оформление платежек по уплате взносов и налогов</div>
+							<div class="s-5__table__td">от 4000руб/квартал</div>
+							<div class="s-5__table__td">от 4000руб/квартал</div>
+							<div class="s-5__table__td">от 5000руб/квартал</div>
+							<div class="s-5__table__td">от 5500руб/квартал</div>
+						</div>
+						<div class="col-4 s-5__table__column s-5__end">
+							<div class="s-5__table__td">Ежемесячное бухгалтерское обслуживание</div>
+							<div class="s-5__table__td">ведение первичной документации, подготовка и сдача отчетности, консультирование, оформление платежек на фиксированные взносы и налоги</div>
+							<div class="s-5__table__td">2000 руб/месяц (до 10 операций)<br/>2000-5000 руб/месяц (10-50 операций)<br/>от 5000 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">2000 руб/месяц (до 10 операций)<br/>2000-5000 руб/месяц (10-50 операций)<br/>от 5000 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">5000 руб/месяц (до 10 операций)<br/>5000-10000 руб/месяц (10-50 операций)<br/>от 10000 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">7500 руб/месяц (до 10 операций)<br/>7500-13500 руб/месяц (10-50 операций)<br/> от 13500 руб/месяц (свыше 50 операций)</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 s-5__separate">
+					<div class="row justify-content-center align-items-center s-5__separate__line">
+						<p class="col-9 s-5__separate__par">ООО с 1 сотрудником (*)</p>
+						<a href="dec.jpg" download="download" class="hidden__link">ООО с 1 сотрудником</a>
+					</div>
+				</div>
+				<p class="col-10 col-xl-9 s-5__pretable">За каждого дополнительного сотрудника +200 руб к стоимости, иностранного сотрудника +400 руб к стоимости</p>
+				<div class="col-10 col-xl-9 s-5__gutters">
+
+					<div class="row s-5__table no-gutters">
+						<div class="col-2 s-5__table__column s-5__bold">
+							<div class="s-5__table__td">Режим налогообложения</div>
+							<div class="s-5__table__td"></div>						
+							<div class="s-5__table__td">УСН "Доходы"</div>
+							<div class="s-5__table__td">УСН "Доходы - Расходы"</div>
+							<div class="s-5__table__td">ОСНО</div>
+							<div class="s-5__table__td">ЕНВД</div>
+						</div>
+						<div class="col-2 s-5__table__column">
+							<div class="s-5__table__td">Нулевая отчетность</div>
+							<div class="s-5__table__td">оформление квитанций на фиксированные страховые взносы</div>
+							<div class="s-5__table__td">2000руб/квартал</div>
+							<div class="s-5__table__td">5000руб/квартал</div>
+							<div class="s-5__table__td">4000руб/квартал</div>
+							<div class="s-5__table__td">3000руб/квартал</div>
+						</div>
+						<div class="col-4 s-5__table__column">
+							<div class="s-5__table__td">Сдача квартальной (годовой) отчетности (ненулевой, если была деятельность)</div>
+							<div class="s-5__table__td">оформление платежек по уплате взносов и налогов</div>
+							<div class="s-5__table__td">от 5000руб/квартал</div>
+							<div class="s-5__table__td">от 5000руб/квартал</div>
+							<div class="s-5__table__td">от 6000руб/квартал</div>
+							<div class="s-5__table__td">от 5000руб/квартал</div>
+						</div>
+						<div class="col-4 s-5__table__column s-5__end">
+							<div class="s-5__table__td">Ежемесячное бухгалтерское обслуживание</div>
+							<div class="s-5__table__td">ведение первичной документации, подготовка и сдача отчетности, консультирование, оформление платежек на фиксированные взносы и налоги</div>
+							<div class="s-5__table__td">5000 руб/месяц (до 10 операций)<br/>5000-10000 руб/месяц (10-50 операций)<br/>от 10000 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">6500 руб/месяц (до 10 операций)<br/>6500-10800 руб/месяц (10-50 операций)<br/>от 10800 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">7500 руб/месяц (до 10 операций)<br/>7500-14400 руб/месяц (10-50 операций)<br/>от 14400 руб/месяц (свыше 50 операций)</div>
+							<div class="s-5__table__td">5000 руб/месяц (до 10 операций)<br/>5000-10000 руб/месяц (10-50 операций)<br/> от 10000 руб/месяц (свыше 50 операций)</div>
+						</div>
+					</div>
+				</div>
+				<h3 class="col-10 col-xl-9 s-5__posttable">Увеличивают стоимость:</h3>
+				<ul class="col-10 col-xl-9 s-5__list">
+					<li>Совмещение различных систем налогообложения + 25%</li>
+					<li>Наличие ККТ + 20 %</li>
+					<li>Ведение складского учета производится силами нашей компании+ 20%</li>
+					<li>Формирование всей первичной документации производится сотрудниками нашей компании + 20%</li>
+					<li>Осуществление внешнеэкономической деятельности: импорт/экспорт +30%; импорт+экспорт +50%</li>
+					<li>Применение ПБУ 18 (если компания Заказчика не относится к СМП) +20%</li>
+					<li>Осуществление торговли акцизными товарами (ликероводочные, ГСМ, сигареты и т.п.) + 20%</li>
+					<li>Осуществление посреднической деятельности + 20%</li>
+					<li>Расхождение между налоговым и бухгалтерским учетом (наличие лизинга, кредитов и пр.) + 20%</li>
+					<li>Наличие операций с ценными бумагами + 20%</li>
+					<li>Различные ставки НДС для продукции или товара при реализации + 10%</li>
+					<li>Наличие курсовых разниц + 10%</li>
+					<li>Наличие недвижимости + 10%</li>
+					<li>Наличие автотранспорта + 10%</li>
+					<li>Наличие обособленных подразделений + 20%</li>
+					<li>Наличие филиалов + 70%</li>
+					<li>Место регистрации Заказчика отличается от СПб и ЛО +10%</li>
+					<li>Возврат денежных средств из бюджета +10%</li>
+					<li>Юридическое лицо с иностранным капиталом +20%</li>
+					<li>Представительство или филиал иностранной компании +50%</li>
+					<li>Проводится обязательный/инициативный аудит +20%</li>
+				</ul>
+				<p class="col-10 col-xl-9 s-5__postpar">Примечание: Данный прайс-лист не является публичной офертой. </p>
+				<p class="col-10 col-xl-9 s-5__postpar">Окончательная стоимость услуг определяется Сторонами в момент заключения договора</p>
+			</div>
+		</section>
+
+		<section class="container-fluid s-6" id="s-6">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-6__headline">Порядок работы</h2>
+				<div class="col-10 col-xl-9 s-6__circle">
+					<div class="s-6__canvas"></div>
+					<div class="row justify-content-center s-6__item">
+						<div class="col-3 s-6__number" id="s-6-one"></div>
+						<div class="col-9 s-6__text">
+							<h4>Оставьте заявку</h4>
+							<p>по телефону или через форму сайта</p>
+						</div>
+					</div>
+					<div class="row justify-content-center s-6__item">
+						<div class="col-3 s-6__number" id="s-6-two"></div>
+						<div class="col-9 s-6__text">
+							<h4>Оставьте заявку</h4>
+							<p>по телефону или через форму сайта</p>
+						</div>
+					</div>
+					<div class="row justify-content-center s-6__item">
+						<div class="col-3 s-6__number" id="s-6-three"></div>
+						<div class="col-9 s-6__text">
+							<h4>Оставьте заявку</h4>
+							<p>по телефону или через форму сайта</p>
+						</div>
+					</div>
+					<div class="row justify-content-center s-6__item">
+						<div class="col-3 s-6__number" id="s-6-four"></div>
+						<div class="col-9 s-6__text">
+							<h4>Оставьте заявку</h4>
+							<p>по телефону или через форму сайта</p>
+						</div>
+					</div>
+					<div class="row justify-content-center s-6__item">
+						<div class="col-3 s-6__number" id="s-6-five"></div>
+						<div class="col-9 s-6__text">
+							<h4>Оставьте заявку</h4>
+							<p>по телефону или через форму сайта</p>
+						</div>
+					</div>
+					<div class="row justify-content-center s-6__item">
+						<div class="col-3 s-6__number" id="s-6-six"></div>
+						<div class="col-9 s-6__text">
+							<h4>Оставьте заявку</h4>
+							<p>по телефону или через форму сайта</p>
+						</div>
+					</div>
+					<div class="row justify-content-center s-6__item">
+						<div class="col-3 s-6__number" id="s-6-seven"></div>
+						<div class="col-9 s-6__text">
+							<h4>Оставьте заявку</h4>
+							<p>по телефону или через форму сайта</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-fluid s-7" id="s-7">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-7__headline">Отзывы</h2>
+				<div class="col-10 col-xl-9">
+					<div class="slider">
+						<div class="slide">
+							<div class="slide__left">
+								<div class="slide__top__item">
+									<div class="top__item__with__logo">
+										<div class="slider__logo"></div>
+										<div class="slider__info">
+											<p>Гудкова Н. А.</p>
+											<p>Исполнительный директор</p>
+											<p style="font-weight: bold">ООО "Демест СПб"</p>
+											<p>производство</p>
+											<p>ОСНО (с НДС)</p>
+										</div>
+									</div>
+									<a href="http://www.demest.com/">http://www.demest.com/</a>
+								</div>
+								<div class="slide__bot__item">
+									<p>Наша компания занимается производством металлической мебели. Специалисты ООО «Золотой Дельфин» смогли организовать в нашей компании оперативный управленческий учет. Сделали отчеты, которые автоматически заполняются и выдают информацию: сколько затрат пришлось на единицу продукции; как показатели повлияли на себестоимость. На основании этих данных я уже принимаю важные экономико-управленческие решения. Команда ООО «Золотой Дельфин» - наши настоящие помощники. Мы находимся с ними в постоянном взаимодействии. Они – часть нашего целого.  Всегда в спокойном режиме и без вопросов проходили камеральные, встречные проверки. </p>
+									<div class="cloud"></div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="slide">
+							<div class="slide__right">
+								<div class="slide__top__item">
+									<div class="top__item__with__logo">
+										<div class="slider__logo"></div>
+										<div class="slider__info">
+											<p>Лапин А. Н.</p>
+											<p>Генеральный директор</p>
+											<p style="font-weight: bold">ООО "Маркет Плюс"</p>
+											<p>услуги, оптовая торговля</p>
+											<p>ОСНО (с НДС)</p>
+										</div>
+									</div>
+									<a href="http://www.marketplus.su/">   http://www.marketplus.su/</a>
+								</div>
+								<div class="slide__bot__item">
+									<p>Работаю по тарифу “Главный бухгалтер”. Отчетность сдается в срок, суммы налогов присылают за 5 дней до оплаты. Я доволен.</p>
+									<div class="cloud"></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container-fluid s-8" id="s-8">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-8__headline">Закажите обратный звонок</h2>
+				<p class="col-12 s-8__par">и мы свяжемся с Вами в ближайшее время.</p>
+				<form class="col-10 col-xl-7">
+					<div class="row">
+						<div class="col-12 col-sm-6">
+							<div class="row">
+								<div class="col-12 col-sm-11 s-8__inputs">
+									<input type="text" name="name" placeholder="Введите Ваше имя">
+									<input type="text" name="phone" placeholder="Введите Ваш телефон">
+									<input type="text" name="mail" placeholder="Введите Ваш e-mail">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6">
+							<div class="row">
+								<div class="col-12 col-sm-11 s-8__textarea">
+									<textarea name="message" placeholder="Сообщение"></textarea>
+									<input type="submit" name="btn" value="Заказать звонок">
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="container-fluid s-9" id="s-9"></section>
+
+		<section class="container-fluid s-10" id="s-10">
+			<div class="row justify-content-center">
+				<h2 class="col-12 s-10__headline">Контакты</h2>
+				<div class="col-11 col-xl-9">
+					<div class="row">
+						<div class="col-12 col-md-5">
+							<div class="row justify-content-center">
+								<div class="col-11 s-10__left">
+									<div class="s-10__left__logo">
+										<div class="s-10__left__logo__img"></div>
+										<div class="s-10__left__logo__text">
+											<h4>Золотой дельфин</h4>
+											<p>Бухгалтерия</p>
+										</div>
+									</div>
+									<p style="color: #ffff04;">Адрес:</p>
+									<p>г.Санкт-Петербург,</p>
+									<p>Большой Сампсониевский проспект, 61 </p>
+									<p>корп 2А</p>
+									<p>Бизнес-центр «Бекар»</p>
+									<div class="s-10__horizontal">
+										<div class="hor__left">
+											<p>Телефон:</p>
+											<p>E-mail:</p>
+											<p>Наименование</p>
+											<p>ИНН</p>
+											<p>ОГРН</p>
+											<p>КПП</p>
+										</div>
+										<div class="hor__right">
+											<p>+7 (812) 317-17-64</p>
+											<p>info@vash-proffbuh.ru</p>
+											<p>ООО "Золотой Дельфин"</p>
+											<p>7842409478</p>
+											<p>1097847152150</p>
+											<p>780601001</p>
+										</div>
+									</div>
+									<div class="s-10__soc">
+										<a href="#"><div class="soc__link" id="fb"></div></a>
+										<a href="#"><div class="soc__link" id="tw"></div></a>
+										<a href="#"><div class="soc__link" id="ins"></div></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-7 s-10__map">
+							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A202e540c68b94ad5c7273d322aab04da3e5c94eef259cc63142b65e1432e998a&amp;width=558&amp;height=430&amp;lang=ru_RU&amp;scroll=true"></script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="container-fluid footer">
+		<div class="row justify-content-center">
+			<div class="col-11 col-xl-9">
+				<div class="row justify-content-center">
+					<div class="col-6 col-md-5 col-lg-5 col-xl-6 footer__links">
+						<a href="#s-2">Почему мы ?</a>
+						<a href="#s-3">Услуги</a>
+						<a href="#s-5">Цены</a>
+						<a href="#s-6">Порядок работы</a>
+						<a href="#s-7">Отзывы</a>
+						<a href="#s-10">Контакты</a>
+					</div>
+					<div class="col-6">
+						<div class="row">
+							<div class="col-12 col-md-6 footer__contacts">
+								<p class="footer__phone">+7 (812) 317-17-64</p>
+								<p class="footer__mail">info@vash-proffbuh.ru</p>
+							</div>
+							<div class="col-12 col-md-6 footer__soc">
+								<a href="#"><div class="footer__soc__container" id="footer-fb"></div></a>
+								<a href="#"><div class="footer__soc__container" id="footer-tw"></div></a>
+								<a href="#"><div class="footer__soc__container" id="footer-ins"></div></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="overlay__modal"></div>
+	<div class="overlay container-fluid">
+		<div class="row justify-content-center">
+			<form class="col-11 col-xl-4 col-md-8 col-lg-6 col-sm-9">
+				<h2>Оставьте заявку<br/> на обратный звонок</h2>
+				<p class="overlay__par">и мы свяжемся с вами в ближайшее время</p>
+				<input type="text" name="name" placeholder="Ваше имя*">
+				<input type="text" name="phone" placeholder="Ваш телефон*">
+				<input type="text" name="mail" placeholder="Ваш e-mail">
+				<textarea name="message" placeholder="Сообщение"></textarea>
+				<p class="overlay__accept">Нажимая кнопку, вы даете согласие на обработку персональных данных</p>
+				<input type="submit" name="btn" value="Отправить заявку">
+			</form>
+		</div>
+	</div>
+	
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/bs/bootstrap.min.js"></script>
+<script src="pushy/js/pushy.min.js"></script>
+
+</body>
+</html>
